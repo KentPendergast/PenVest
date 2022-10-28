@@ -174,8 +174,55 @@ min-height: 100%;
   width: 70%;
   height: 80%;
   margin: 0px auto;
-
+position: relative;
   border-color: yellow;
   border-style: solid;
   border-width: 3px;
+}
+
+h1 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.impactone {
+height: 90%;
+  padding: 3px;
+  border-width: 3px;
+  border-color: white;
+  border-style: solid;
+  margin-left: 13%;
+}
+
+.sectiondiv {
+  height: 10%;
+position: relative;
+
+  border-width: 3px;
+  border-color: green;
+  border-style: solid;
+}
+
+.sectiontext {
+  width: 50%;
+margin-left: 40%;
+position: absolute;
+z-index: 5;
+top: 0;
+
+
+
+border-width: 3px;
+border-color: green;
+border-style: solid;
+}
+
+.centertext {
+  text-align: center;
+}
+
+.second{
+  top: 50%;
 }
