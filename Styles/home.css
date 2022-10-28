@@ -11,8 +11,9 @@ li {color: white;}
     background-color: black;
     margin: 0px 10px 10px 10px;
     padding: 8px 8px 8px 8px;
-    width: 85px;
-    height: 85px;
+
+    height: 40px;
+    width: 40px;
 }
 
 .topbar {
@@ -109,12 +110,6 @@ li {color: white;}
 .logohome {
     max-width: 50px;
 
-}
-
-.homebutton{
-
-height: 40px;
-width: 40px;
 }
 
 
