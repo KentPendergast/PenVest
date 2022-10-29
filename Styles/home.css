@@ -1,19 +1,47 @@
 body {background-color: #131212;
-margin: 0px;}
+margin: 0px;
+font-family:'Courier New', monospace;
+}
 
 
 p {color: white;}
 h2 {color: white;}
 li {color: white;}
 
+.waviy {
+  position: relative;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
 
 .homebutton {
-    background-color: black;
+    background-color: #333;
     margin: auto;
-    padding: 8px 8px 8px 8px;
-
-    height: 40px;
-    width: 40px;
+    padding: 2px 2px 2px 2px;
+    height: 30px;
+    width: 50px;
+    border-radius: 25%;
+  width:fit-content;
+  block-size: fit-content;
 
 }
 
@@ -35,7 +63,7 @@ margin: 0px 0px;
 
   height: 2000px;
   border-style: solid;
-  border-color: red;
+  border-color: #333;
   border-width: 3px;
   position: relative;
 
@@ -62,7 +90,7 @@ margin: 0px 0px;
     padding: 0px;
     height: 70px;
 
-    border-color: blue;
+    border-color: #333;
     border-style: solid;
     border-width: 3px;
   }
@@ -94,7 +122,7 @@ margin: 0px 0px;
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #ed1d46;
   }
   
   .dropdown-content {
@@ -108,7 +136,7 @@ margin: 0px 0px;
   
   .dropdown-content a {
     float: none;
-    color: red;
+    color: #ed1d46;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -127,13 +155,18 @@ margin: 0px 0px;
   .navbuttons{
     height: 100%;
     margin: auto;
-  }
+    border-radius: 10px 10px 0 0;  }
 
 .logohome {
-    max-width: 50px;
+    max-width: 75px;
+    height: 28px;
 
 }
+.linkedin {
+  max-width: 75px;
+  height: 20px;
 
+}
 
 
   
@@ -184,7 +217,7 @@ h1 {
   font-size: 30px;
   color: white;
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family:'Courier New', monospace;
 }
 
 .impactone {
@@ -196,26 +229,51 @@ height: 90%;
   margin-left: 13%;
 }
 
+
+
+
 .sectiondiv {
   height: 10%;
-position: relative;
-
+  position: relative;
   border-width: 3px;
-  border-color: green;
-  border-style: solid;
 }
+
+
+/* main image section */
+
+.mainimagesec {
+  height: 20%;
+  position: relative;
+  border-width: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .sectiontext {
   width: 50%;
 margin-left: 40%;
 position: absolute;
 z-index: 5;
-top: 0;
+top: 15%;
 
 
 
 border-width: 3px;
-border-color: green;
+border-color: blue;
 border-style: solid;
 }
 
@@ -226,3 +284,81 @@ border-style: solid;
 .second{
   top: 50%;
 }
+
+.button {
+  background-color: #ed1d46;
+  border-radius: 25%;
+  color: white;
+  padding: 10px 20px;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  width:fit-content;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* -- */
+
+/* homepage main section */
+
+.mage1 {
+height: 100%;
+margin: 0 40%;
+}
+
+
+/* (A) FIXED WRAPPER */
+.hwrap {
+  overflow: hidden; /* HIDE SCROLL BAR */
+  background: #eee;
+}
+ 
+/* (B) MOVING TICKER WRAPPER */
+.hmove { display: flex; }
+
+/* (C) ITEMS - INTO A LONG HORIZONTAL ROW */
+.hitem {
+  flex-shrink: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  color: #131212;
+  font-family: 'Courier New', Courier, monospace;
+}
+ 
+/* (D) ANIMATION - MOVE ITEMS FROM RIGHT TO LEFT */
+/* 4 ITEMS -400%, CHANGE THIS IF YOU ADD/REMOVE ITEMS */
+@keyframes tickerh {
+  0% { transform: translate3d(100%, 0, 0); }
+  100% { transform: translate3d(-400%, 0, 0); }
+}
+.hmove { animation: tickerh linear 30s infinite; }
+.hmove:hover { animation-play-state: paused; }
+
+
+
+
+/* Testing Styles */
+
+
+.border{
+  border-style: solid;
+  border-width: 3px;
+}
+
+.greenb {
+  border-color: green;
+}
+
+.redb {
+  border-color: red;
+}
+
+.blueb {
+  border-color: blue;
+}
+
