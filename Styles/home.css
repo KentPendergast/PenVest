@@ -1,3 +1,14 @@
+html{scroll-behavior: smooth;}
+
+
+
+
+
+
+
+
+
+
 body {background-color: #131212;
 margin: 0px;
 font-family:'Courier New', monospace;
@@ -56,6 +67,7 @@ li {color: white;}
 .maincontainer {
   min-width: 400px;
   max-width: 1920px;
+
 margin: 0px 0px;
 
 
@@ -69,6 +81,10 @@ margin: 0px 0px;
 
 
 }
+/* 
+.maincontainerlarge {
+  height: 3000px;
+} */
 
 
 
@@ -208,9 +224,7 @@ min-height: 100%;
   height: 80%;
   margin: 0px auto;
 position: relative;
-  border-color: yellow;
-  border-style: solid;
-  border-width: 3px;
+background-color: #333;
 }
 
 h1 {
@@ -223,9 +237,6 @@ h1 {
 .impactone {
 height: 90%;
   padding: 3px;
-  border-width: 3px;
-  border-color: white;
-  border-style: solid;
   margin-left: 13%;
 }
 
@@ -235,7 +246,7 @@ height: 90%;
 .sectiondiv {
   height: 10%;
   position: relative;
-  border-width: 3px;
+
 }
 
 
@@ -248,7 +259,11 @@ height: 90%;
 }
 
 
-
+.smallsec {
+  width: 60%;
+  margin: auto;
+  height: 15%;
+}
 
 
 
@@ -269,12 +284,6 @@ margin-left: 40%;
 position: absolute;
 z-index: 5;
 top: 15%;
-
-
-
-border-width: 3px;
-border-color: blue;
-border-style: solid;
 }
 
 .centertext {
@@ -302,12 +311,39 @@ border-style: solid;
 
 /* -- */
 
+
+/* General Tools */
+
+.smallspacer {
+  width: 100%;
+  height: 3%;
+}
+
+.mediumspacer {
+  width: 100%;
+  height: 7%;
+}
+
+.boldl {
+  font-weight: bold;
+}
+
 /* homepage main section */
 
 .mage1 {
 height: 100%;
-margin: 0 40%;
+margin: 0 auto;
 }
+
+.magecenterbox {
+  margin: 0 auto;
+  height: 100%;
+  width: fit-content;
+}
+
+
+
+
 
 
 /* (A) FIXED WRAPPER */
@@ -362,3 +398,137 @@ margin: 0 40%;
   border-color: blue;
 }
 
+.whiteb {
+  border-color: white;
+}
+
+
+
+
+
+.redfborder {
+  border-style: solid;
+  border-width: .5px;
+border-color: lightskyblue;
+}
+/* Side Scrollr */
+
+
+
+.sidescroller1 {
+
+  height: 120px;
+  width: 50px;
+  position: sticky;
+top: 45%;
+background-color: rgb(55, 54, 54);
+border-radius: 40px;
+}
+
+.sidebub {
+
+  width: 60%;
+  position: relative;
+  top: 25px;
+  left: 20%;
+
+}
+
+.bottombub {
+ top: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact Page Styles */
+
+
+.formbox {
+
+  width: 40%;
+  min-width: 270px;
+  margin: auto;
+  height: 35%;
+  background-color: lightgrey;
+
+}
+
+.formbox2 {
+  width: 60%;
+  height: 100%;
+  margin: auto;
+}
+
+form {margin: auto;
+}
+
+.elementcenter {
+  margin: auto;
+  position: relative;
+}
+
+
+.header1 {
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+.formbutton2 {
+padding: 5px;
+width: 70px;
+height: 70px;
+
+}
+
+
+
+.commentboxw {
+  max-width: 100%;
+  max-height: 120px;
+}
+
+
+/* Impact Page Styling */
+
+
+
+.impactvideo {
+
+
+  width: 420px;
+  height: 315px;
+  margin-left: 10%;
+}
+
+
+.rightsidecontent {
+
+width: 40%;
+height: 17%;
+left: 56%;
+top: -19%;
+color: yellow;
+position: inherit;
+display: block;
+}
+
+.impactbh2 {
+
+  top: -10%;
+
+  position: inherit;
+}
