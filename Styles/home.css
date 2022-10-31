@@ -81,6 +81,11 @@ margin: 0px 0px;
 
 
 }
+
+
+.smallercontainer {
+  height: 1000px;
+}
 /* 
 .maincontainerlarge {
   height: 3000px;
@@ -109,6 +114,7 @@ margin: 0px 0px;
     border-color: #333;
     border-style: solid;
     border-width: 3px;
+
   }
   
   .navbar a {
@@ -227,6 +233,11 @@ position: relative;
 background-color: #333;
 }
 
+.contentsmall {
+  height: 500px;
+}
+
+
 h1 {
   font-size: 30px;
   color: white;
@@ -322,6 +333,7 @@ top: 15%;
 .mediumspacer {
   width: 100%;
   height: 7%;
+  text-align: center;
 }
 
 .boldl {
@@ -532,3 +544,250 @@ display: block;
 
   position: inherit;
 }
+
+
+/* Impact Table Elements */
+.impact-table {
+
+  position: inherit;
+  width: 70%;
+  height: 25%;
+  margin: auto;
+  top: -6%;
+ overflow: hidden;
+  
+  }
+
+  .impact-table-table {
+    width: 80%;
+    position: relative;
+    margin: auto;
+  }
+
+.impactcellsize {
+  width: 170px;
+  height: 170px;
+  padding: 20px;
+}
+
+
+/* Footer Styling */
+
+
+
+
+
+.footermainbox{
+
+  width: 100%;
+  height: 45px;
+  position: relative;
+  bottom: 0;
+  background-color: #333;
+  border-top: lightblue;
+  border-top-style: solid;
+  border-radius: .5px;
+
+  display: block;
+  overflow: hidden;
+}
+
+
+
+.indexfooter {
+  bottom: -180px;
+}
+.contactfooter {
+  bottom: -40px;
+}
+
+
+.footlinkbox {
+  width: 52%;
+  min-width: 600px;
+
+  height: 100%;
+  margin: auto;
+  position: relative;
+top: -99%;
+  
+}
+
+.footertext {
+  color: white;
+  text-decoration: none;
+padding: 50px;
+top: -45%;
+  position: relative;
+}
+
+
+
+.footerlogo {
+
+  height: 100%;
+  width: auto;
+  padding-right: 50px;
+
+}
+
+.copyrightbox {
+
+width: 280px;
+height: 100%;
+position: relative;
+min-width: 200px;
+
+right: 0;
+
+
+
+
+}
+
+.copyright-text {
+  text-align: center;
+
+  position: relative;
+  top: 25%;
+}
+
+
+
+
+
+
+/* Record Page Styling */
+
+
+
+.recordmiddlebox {
+position: relative;
+height: 60%;
+width: 80%;
+margin: auto;
+}
+
+
+
+.recordfoot {
+  position: absolute;
+bottom: 0px;
+}
+
+.recordsectionbox {
+
+  width: 90%;
+  height: 20%;
+  margin: auto;
+
+}
+
+.bignumbox {
+  height: 100%;
+ width: fit-content;
+ overflow: hidden;
+
+ display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.smallcentlet {
+  text-align: center;
+  font-size: 20pt;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+}
+
+.milliontext {
+  height: 5%;
+  width: auto;
+  position: absolute;
+
+color: #ed1d46;
+}
+
+
+
+.recordtextboxright {
+  width: 50%;
+  position: relative;
+margin: auto;
+bottom: 60%;
+
+}
+
+
+.recordnumbertext {
+  font-size: 60px;
+  text-align: center;
+
+  padding: 50% 0;
+  position: relative;
+}
+
+.tallcityimage {
+  height: 95%;
+  padding: 2.5%;
+width: auto;
+position: absolute;
+right: 0;
+}
+
+
+
+
+
+
+
+.height80 {
+  height: 80%;
+  width: 82%;
+}
+
+.invcellsize {
+  width: 100%;
+  height: auto;
+  padding: 10%;
+}
+
+.logotable {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: auto;
+  position: relative;
+  object-fit: cover;
+  padding: 5%;
+
+}
+
+  .backgroundgrey {
+background-color: darkgrey;
+
+  }
+
+
+
+  /* Sitemap Styling */
+
+
+  .whitetext {
+    color: white;
+  }
+
+  .sitemapbox {
+    width: 50%;
+    margin: auto;
+  }
+
+  .sitemaplinks{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+  }
