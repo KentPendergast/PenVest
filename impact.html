@@ -134,7 +134,7 @@
           </p>
         </div>
 
-        <p class="header1 centertext impactbh2">How We Impact Invest</p>
+        <p class="header1 centertext impactbh2" onmouseover="impacttext()" onmouseout="impactnorm() " id="texty">How We Impact Invest</p>
 
         <!-- Table -->
         <div class="impact-table">
@@ -208,6 +208,9 @@
               </td>
             </tr>
           </table>
+          <div class="sectiondiv">
+            <button id="diffy">Want to make a difference?</button>
+          </div>
         </div>
 
         <!-- Footer -->
@@ -238,5 +241,32 @@
 
       <!-- Main content box end -->
     </div>
+
+
+
+    <script>
+
+function impacttext(){
+const text = document.getElementById("texty");
+text.innerHTML = "Let's Impact Invest Together";
+text.style.color = "red";
+
+
+}
+
+
+
+
+function impactnorm(){
+  const text = document.getElementById("texty"); 
+  text.innerHTML = "How We Impact Invest";
+text.style.color = "white";
+
+
+}
+
+
+
+    </script>
   </body>
 </html>

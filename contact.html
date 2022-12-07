@@ -181,7 +181,7 @@
         <div class="formbox">
           <div class="formbox2">
             <div class="smallspacer"></div>
-            <form action=" https://oim-apis.herokuapp.com/form2" method="post">
+            <form action=" https://oim-apis.herokuapp.com/form2" onsubmit="return validateForm()" method="post" id="formmy">
               <div>
                 <label for="Lname">Last Name: </label>
                 <input
@@ -337,4 +337,12 @@
       <!-- Footer End -->
     </div>
   </body>
+
+  <script>
+    function validateForm(){
+const form = document.getElementById("formmy")
+return
+
+    }
+  </script>
 </html>
